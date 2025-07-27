@@ -34,8 +34,8 @@ In this system, microservices communicate via RabbitMQ. Each message is sent thr
 Clone the repository and navigate into it:
 
 ```bash
-git clone https://github.com/Enesguzel1/MicroserviceProject.git
-cd MicroserviceProject
+git clone https://github.com/Enesguzel1/MicroserviceProjectWithRabbitMQ.git
+cd MicroserviceProjectWithRabbitMQ
 ```
 Start all services using Docker Compose:
 ```bash
@@ -50,4 +50,7 @@ Start all services using Docker Compose:
 - payment-service : 8081
 
 - invoice-service : 8082
+
+## Structure of RabbitMQ 
+  ![rabbitmq panel](RabbitMQ.png)
 
